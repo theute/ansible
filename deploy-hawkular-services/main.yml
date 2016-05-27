@@ -1,4 +1,4 @@
-- hosts: localhost
-  remote_user: root
+- hosts: hawkular-services-host
+  remote_user: theute
   roles:
     - jboss-ansible.hawkular-services
